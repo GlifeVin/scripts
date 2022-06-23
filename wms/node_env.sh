@@ -19,3 +19,7 @@ rm -rf $NVM_DIR/versions/node/v14.16.0/bin/corepack
 npm i -g corepack
 
 npm i -g pm2
+
+sudo env PATH=$PATH:$NVM_BIN pm2 startup systemd -u `whoami` --hp $HOME
+
+curl https://raw.githubusercontent.com/GlifeVin/scripts/main/wms/system_config.sh | bash
