@@ -129,7 +129,7 @@
 
 *OpenUI *Darkness/Darkness: PickOne
 *OrderDependency: 120 AnySetup *Darkness
-*DefaultDarkness: 7
+*DefaultDarkness: 10
 *Darkness 0: "%%"
 *Darkness 1: "%%"
 *Darkness 2: "%%"
@@ -212,7 +212,7 @@
 
 *OpenUI *MarkHeight/Gaps Height: PickOne
 *OrderDependency: 150 AnySetup *MarkHeight
-*DefaultMarkHeight: 11.34
+*DefaultMarkHeight: 5.67
 *MarkHeight 0/0mm: "%%"
 *MarkHeight 2.83/1mm: "%%"
 *MarkHeight 5.67/2mm: "%%"
@@ -372,7 +372,7 @@
 
 *OpenUI *FeedOffset/Feed Offset: PickOne
 *OrderDependency: 160 AnySetup *FeedOffset
-*DefaultFeedOffset: 0
+*DefaultFeedOffset: -2.83
 *FeedOffset -72.00/-25.4mm: "%%"
 *FeedOffset -70.87/-25mm: "%%"
 *FeedOffset -68.03/-24mm: "%%"
