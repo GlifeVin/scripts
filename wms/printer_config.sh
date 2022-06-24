@@ -23,11 +23,8 @@ fi
 echo "Printer $PRINTER_NAME"
 echo "Printer uri $PRINTER_URI"
 
-sudo /usr/sbin/lpadmin -p $PRINTER_NAME -E -v $PRINTER_URI -P ~/tmp/wms/Gprinter.ppd
+sudo /usr/sbin/lpadmin -p $PRINTER_NAME -E -v $PRINTER_URI -P ~/tmp/wms/Gprinter.ppd -o usb-no-reattach=true -o usb-unidir=true
 
-# config
-sudo lpadmin -p $PRINTER_NAME -o usb-no-reattach=true
-sudo lpadmin -p $PRINTER_NAME -o usb-unidir=true
 sudo service cups restart
 
 # cleanup
