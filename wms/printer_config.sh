@@ -6,12 +6,14 @@ PRINTER_URI=`lpstat -v | grep $PRINTER_NAME | sed 's/^.*usb:/usb:/g'`
 if [ ! -e ~/tmp/wms/Gprinter.ppd ]
 then
   sudo mkdir -p ~/tmp/wms
+  sudo chown `whoami` ~/tmp/wms
   curl https://raw.githubusercontent.com/GlifeVin/scripts/main/wms/Gprinter.ppd > ~/tmp/wms/Gprinter.ppd
 fi
 
 if [ ! -e ~/tmp/wms/rastertotspl ]
 then
   sudo mkdir -p ~/tmp/wms
+  sudo chown `whoami` ~/tmp/wms
   curl https://raw.githubusercontent.com/GlifeVin/scripts/main/wms/rastertotspl > ~/tmp/wms/rastertotspl
   sudo mv ~/tmp/wms/rastertotspl /usr/lib/cups/filter/rastertotspl
 fi
