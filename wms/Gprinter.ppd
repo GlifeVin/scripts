@@ -148,26 +148,30 @@
 *Darkness 15: "%%"
 *CloseUI: *Darkness
 
-*OpenUI *AdjustHoriaontal/Horizontal Offset:PickOne
-*OrderDependency: 130 AnySetup *AdjustHoriaontal
-*DefaultAdjustHoriaontal: 0
-*AdjustHoriaontal 0/0mm: "%%"
-*AdjustHoriaontal 2.83/1mm: "%%"
-*AdjustHoriaontal 5.67/2mm: "%%"
-*AdjustHoriaontal 8.50/3mm: "%%"
-*AdjustHoriaontal 11.34/4mm: "%%"
-*AdjustHoriaontal 14.17/5mm: "%%"
-*AdjustHoriaontal 17.01/6mm: "%%"
-*AdjustHoriaontal 19.84/7mm: "%%"
-*AdjustHoriaontal 22.68/8mm: "%%"
-*AdjustHoriaontal 25.51/9mm: "%%"
-*AdjustHoriaontal 28.35/10mm: "%%"
-*AdjustHoriaontal 31.18/11mm: "%%"
-*AdjustHoriaontal 34.02/12mm: "%%"
-*AdjustHoriaontal 36.85/13mm: "%%"
-*AdjustHoriaontal 39.69/14mm: "%%"
-*AdjustHoriaontal 42.52/15mm: "%%"
-*CloseUI: *AdjustHoriaontal
+*OpenUI *AdjustHorizontal/Horizontal Offset:PickOne
+*OrderDependency: 130 AnySetup *AdjustHorizontal
+*DefaultAdjustHorizontal: 0
+*AdjustHorizontal -11.34/-4mm: "%%"
+*AdjustHorizontal -8.50-/3mm: "%%"
+*AdjustHorizontal -5.67/-2mm: "%%"
+*AdjustHorizontal -2.83/-1mm: "%%"
+*AdjustHorizontal 0/0mm: "%%"
+*AdjustHorizontal 2.83/1mm: "%%"
+*AdjustHorizontal 5.67/2mm: "%%"
+*AdjustHorizontal 8.50/3mm: "%%"
+*AdjustHorizontal 11.34/4mm: "%%"
+*AdjustHorizontal 14.17/5mm: "%%"
+*AdjustHorizontal 17.01/6mm: "%%"
+*AdjustHorizontal 19.84/7mm: "%%"
+*AdjustHorizontal 22.68/8mm: "%%"
+*AdjustHorizontal 25.51/9mm: "%%"
+*AdjustHorizontal 28.35/10mm: "%%"
+*AdjustHorizontal 31.18/11mm: "%%"
+*AdjustHorizontal 34.02/12mm: "%%"
+*AdjustHorizontal 36.85/13mm: "%%"
+*AdjustHorizontal 39.69/14mm: "%%"
+*AdjustHorizontal 42.52/15mm: "%%"
+*CloseUI: *AdjustHorizontal
 
 *OpenUI *AdjustVertical/Vertical Offset:PickOne
 *OrderDependency: 130 AnySetup *AdjustVertical
