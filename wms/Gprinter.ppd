@@ -23,7 +23,7 @@
 *Throughput: "1"
 *LandscapeOrientation: Plus90
 *TTRasterizer: Type42
-*cupsVersion: 1.2
+*cupsVersion: 2.3
 *cupsManualCopies: False
 *% *cupsFilter: "application/vnd.cups-raster 0 /usr/libexec/cups/filter/rastertobarcodetspl"
 *cupsFilter: "application/vnd.cups-raster 0 /usr/lib/cups/filter/rastertotspl"
