@@ -150,12 +150,9 @@
 
 *OpenUI *AdjustHoriaontal/Horizontal Offset:PickOne
 *OrderDependency: 130 AnySetup *AdjustHoriaontal
-*DefaultAdjustHoriaontal: -2.83
-*AdjustHoriaontal -11.34/-4mm: "%%"
-*AdjustHoriaontal -8.50/-3mm: "%%"
-*AdjustHoriaontal -5.67/-2mm: "%%"
-*AdjustHoriaontal -2.83/-1mm: "%%"
+*DefaultAdjustHoriaontal: 0
 *AdjustHoriaontal 0/0mm: "%%"
+*AdjustHoriaontal 1.41/0.5mm: "%%"
 *AdjustHoriaontal 2.83/1mm: "%%"
 *AdjustHoriaontal 5.67/2mm: "%%"
 *AdjustHoriaontal 8.50/3mm: "%%"
