@@ -11,8 +11,8 @@ source ~/.bashrc
 source $NVM_DIR/nvm.sh
 
 # install nodejs + yarn
-nvm install v14.16.0
-nvm use v14.16.0
+nvm install v14.17.0
+nvm use v14.17.0
 
 # remove symlink before install new one
 rm -rf $NVM_BIN/corepack
