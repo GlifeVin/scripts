@@ -27,5 +27,9 @@ sudo /usr/sbin/lpadmin -p $PRINTER_NAME -E -v $PRINTER_URI -P ~/wms/Gprinter.ppd
 
 sudo service cups restart
 
+sudo lpadmin -p $PRINTER_NAME -o usb-no-reattach-default=true
+sudo lpadmin -p $PRINTER_NAME -o usb-unidir-default=true
+sudo service cups restart
+
 # cleanup
 sudo rm -rf ~/wms
