@@ -43,7 +43,7 @@
 
 *MaxMediaWidth: "294.80"
 *MaxMediaHeight: "6480"
-*HWMargins: 0.00 0.00 0.00 0.00
+*HWMargins: 1.00 1.00 1.00 1.00
 *CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
 *ParamCustomPageSize Width: 1 points 14.17 294.80
 *ParamCustomPageSize Height: 2 points 14.17 6480
@@ -59,13 +59,14 @@
 *OrderDependency: 10 AnySetup *PageSize
 *DefaultPageSize: w40mmh30mm
 *PageSize w30mmh20mm/30mm x 20mm: "<</PageSize[85 57]/ImagingBBox null>>setpagedevice"
-*PageSize w40mmh60mm/40mm x 60mm: "<</PageSize[113 170]/ImagingBBox null>>setpagedevice"
-*PageSize w40mmh70mm/40mm x 70mm: "<</PageSize[113 198]/ImagingBBox null>>setpagedevice"
-*PageSize w40mmh30mm/40mm x 30mm: "<</PageSize[113 85]/ImagingBBox null>>setpagedevice"
+*PageSize w40mmh60mm/40mm x 60mm: "<</PageSize[112 170]/ImagingBBox null>>setpagedevice"
+*PageSize w40mmh70mm/40mm x 70mm: "<</PageSize[112 198]/ImagingBBox null>>setpagedevice"
+*PageSize w40mmh30mm/40mm x 30mm: "<</PageSize[112 85]/ImagingBBox null>>setpagedevice"
+*PageSize w70mmh50mm/70mm x 50mm: "<</PageSize[194 140]/ImagingBBox null>>setpagedevice"
 *PageSize w50mmh20mm/50mm x 20mm: "<</PageSize[142 57]/ImagingBBox null>>setpagedevice"
 *PageSize w55mmh200mm/55mm x 200mm: "<</PageSize[156 567]/ImagingBBox null>>setpagedevice"
 *PageSize w55mmh1000mm/55mm x 1000mm (Washi Tape): "<</PageSize[156 2835]/ImagingBBox null>>setpagedevice"
-*PageSize w60mmh40mm/60mm x 40mm: "<</PageSize[170 113]/ImagingBBox null>>setpagedevice"
+*PageSize w60mmh40mm/60mm x 40mm: "<</PageSize[170 112]/ImagingBBox null>>setpagedevice"
 *PageSize w100mmh150mm/100mm x 150mm: "<</PageSize[283 425]/ImagingBBox null>>setpagedevice"
 *PageSize w100mmh180mm/100mm x 180mm (STO Label): "<</PageSize[283 510]/ImagingBBox null>>setpagedevice"
 *CloseUI: *PageSize
@@ -74,36 +75,39 @@
 *OrderDependency: 10 AnySetup *PageRegion
 *DefaultPageRegion: w40mmh30mm
 *PageRegion w30mmh20mm/30mm x 20mm: "<</PageSize[85 57]/ImagingBBox null>>setpagedevice"
-*PageRegion w40mmh60mm/40mm x 60mm: "<</PageSize[113 170]/ImagingBBox null>>setpagedevice"
-*PageRegion w40mmh70mm/40mm x 70mm: "<</PageSize[113 198]/ImagingBBox null>>setpagedevice"
-*PageRegion w40mmh30mm/40mm x 30mm: "<</PageSize[113 85]/ImagingBBox null>>setpagedevice"
+*PageRegion w40mmh60mm/40mm x 60mm: "<</PageSize[112 170]/ImagingBBox null>>setpagedevice"
+*PageRegion w40mmh70mm/40mm x 70mm: "<</PageSize[112 198]/ImagingBBox null>>setpagedevice"
+*PageRegion w40mmh30mm/40mm x 30mm: "<</PageSize[112 85]/ImagingBBox null>>setpagedevice"
+*PageRegion w70mmh50mm/70mm x 50mm: "<</PageSize[194 140]/ImagingBBox null>>setpagedevice"
 *PageRegion w50mmh20mm/50mm x 20mm: "<</PageSize[142 57]/ImagingBBox null>>setpagedevice"
 *PageRegion w55mmh200mm/55mm x 200mm: "<</PageSize[156 567]/ImagingBBox null>>setpagedevice"
 *PageRegion w55mmh1000mm/55mm x 1000mm (Washi Tape): "<</PageSize[156 2835]/ImagingBBox null>>setpagedevice"
-*PageRegion w60mmh40mm/60mm x 40mm: "<</PageSize[170 113]/ImagingBBox null>>setpagedevice"
+*PageRegion w60mmh40mm/60mm x 40mm: "<</PageSize[170 112]/ImagingBBox null>>setpagedevice"
 *PageRegion w100mmh150mm/100mm x 150mm: "<</PageSize[283 425]/ImagingBBox null>>setpagedevice"
 *PageRegion w100mmh180mm/100mm x 180mm (STO Label): "<</PageSize[283 510]/ImagingBBox null>>setpagedevice"
 *CloseUI: *PageRegion
 
 *ImageableArea w30mmh20mm/30mm x 20mm: "0 0 85 57"
-*ImageableArea w40mmh60mm/40mm x 60mm: "0 0 113 170"
-*ImageableArea w40mmh70mm/40mm x 70mm: "0 0 113 198"
-*ImageableArea w40mmh30mm/40mm x 30mm: "0 0 113 85"
+*ImageableArea w40mmh60mm/40mm x 60mm: "0 0 112 170"
+*ImageableArea w40mmh70mm/40mm x 70mm: "0 0 112 198"
+*ImageableArea w40mmh30mm/40mm x 30mm: "0 0 112 85"
+*ImageableArea w70mmh50mm/70mm x 50mm: "0 0 194 140"
 *ImageableArea w50mmh20mm/50mm x 20mm: "0 0 142 57"
 *ImageableArea w55mmh200mm/55mm x 200mm: "0 0 156 567"
 *ImageableArea w55mmh1000mm/55mm x 1000mm (Washi Tape): "0 0 156 2835"
-*ImageableArea w60mmh40mm/60mm x 40mm: "0 0 170 113"
+*ImageableArea w60mmh40mm/60mm x 40mm: "0 0 170 112"
 *ImageableArea w100mmh150mm/100mm x 150mm: "0 0 283 425"
 *ImageableArea w100mmh180mm/100mm x 180mm (STO Label): "0 0 283 510"
 
 *PaperDimension w30mmh20mm/30mm x 20mm: "85 57"
-*PaperDimension w40mmh60mm/40mm x 60mm: "113 170"
-*PaperDimension w40mmh70mm/40mm x 70mm: "113 198"
-*PaperDimension w40mmh30mm/40mm x 30mm: "113 85"
+*PaperDimension w40mmh60mm/40mm x 60mm: "112 170"
+*PaperDimension w40mmh70mm/40mm x 70mm: "112 198"
+*PaperDimension w40mmh30mm/40mm x 30mm: "112 85"
+*PaperDimension w70mmh50mm/70mm x 50mm: "194 140"
 *PaperDimension w50mmh20mm/50mm x 20mm: "142 57"
 *PaperDimension w55mmh200mm/55mm x 200mm: "156 567"
 *PaperDimension w55mmh1000mm/55mm x 1000mm (Washi Tape): "156 2835"
-*PaperDimension w60mmh40mm/60mm x 40mm: "170 113"
+*PaperDimension w60mmh40mm/60mm x 40mm: "170 112"
 *PaperDimension w100mmh150mm/100mm x 150mm: "283 425"
 *PaperDimension w100mmh180mm/100mm x 180mm (STO Label): "283 510"
 
@@ -148,30 +152,26 @@
 *Darkness 15: "%%"
 *CloseUI: *Darkness
 
-*OpenUI *AdjustHorizontal/Horizontal Offset:PickOne
-*OrderDependency: 130 AnySetup *AdjustHorizontal
-*DefaultAdjustHorizontal: 0
-*AdjustHorizontal -11.34/-4mm: "%%"
-*AdjustHorizontal -8.50-/3mm: "%%"
-*AdjustHorizontal -5.67/-2mm: "%%"
-*AdjustHorizontal -2.83/-1mm: "%%"
-*AdjustHorizontal 0/0mm: "%%"
-*AdjustHorizontal 2.83/1mm: "%%"
-*AdjustHorizontal 5.67/2mm: "%%"
-*AdjustHorizontal 8.50/3mm: "%%"
-*AdjustHorizontal 11.34/4mm: "%%"
-*AdjustHorizontal 14.17/5mm: "%%"
-*AdjustHorizontal 17.01/6mm: "%%"
-*AdjustHorizontal 19.84/7mm: "%%"
-*AdjustHorizontal 22.68/8mm: "%%"
-*AdjustHorizontal 25.51/9mm: "%%"
-*AdjustHorizontal 28.35/10mm: "%%"
-*AdjustHorizontal 31.18/11mm: "%%"
-*AdjustHorizontal 34.02/12mm: "%%"
-*AdjustHorizontal 36.85/13mm: "%%"
-*AdjustHorizontal 39.69/14mm: "%%"
-*AdjustHorizontal 42.52/15mm: "%%"
-*CloseUI: *AdjustHorizontal
+*OpenUI *AdjustHoriaontal/Horizontal Offset:PickOne
+*OrderDependency: 130 AnySetup *AdjustHoriaontal
+*DefaultAdjustHoriaontal: 0
+*AdjustHoriaontal 0/0mm: "%%"
+*AdjustHoriaontal 2.83/1mm: "%%"
+*AdjustHoriaontal 5.67/2mm: "%%"
+*AdjustHoriaontal 8.50/3mm: "%%"
+*AdjustHoriaontal 11.34/4mm: "%%"
+*AdjustHoriaontal 14.17/5mm: "%%"
+*AdjustHoriaontal 17.01/6mm: "%%"
+*AdjustHoriaontal 19.84/7mm: "%%"
+*AdjustHoriaontal 22.68/8mm: "%%"
+*AdjustHoriaontal 25.51/9mm: "%%"
+*AdjustHoriaontal 28.35/10mm: "%%"
+*AdjustHoriaontal 31.18/11mm: "%%"
+*AdjustHoriaontal 34.02/12mm: "%%"
+*AdjustHoriaontal 36.85/13mm: "%%"
+*AdjustHoriaontal 39.69/14mm: "%%"
+*AdjustHoriaontal 42.52/15mm: "%%"
+*CloseUI: *AdjustHoriaontal
 
 *OpenUI *AdjustVertical/Vertical Offset:PickOne
 *OrderDependency: 130 AnySetup *AdjustVertical
